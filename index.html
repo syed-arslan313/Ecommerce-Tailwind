@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="fonts" src=img/aceh>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            // screens: {
+            //   sm: "367px",
+            //   md: "768px",
+            //   lg: "1281px",
+            // },
+
+            colors: {
+              purpleColor: "#260041", // Fixed quotes
+              purple1A: "#0f001a", // Fixed quotes
+              bluecolor: "#4a99d3", // Fixed quotes
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!--Header Start-->
+
+    <header class="w-full flex flex-row items-center pt-11 absolute">
+      <div
+        class="container w-[950px] mx-auto flex flex-row items-center justify-between px-[25px] lg:px-[0px] md:px-[opx]"
+      >
+        <img src="img/LOGO.svg" class="w-[128px] h-[42px]" />
+        <img src="img/menu.png" class="w-[45px] sm:hidden" />
+
+        <ul class="flex flex-row justify-between w-[312px] hidden sm:flex">
+          <li class="text-bluecolor font-custom text-lg">
+            <a href="/">Home</a>
+          </li>
+          <li class="text-purple1A font-custom text-lg">
+            <a href="/">About</a>
+          </li>
+          <li class="text-purple1A font-custom text-lg">
+            <a href="/">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!--Header End-->
+
+    <!--Hero Section Start-->
+    <div
+      class="w-full flex sm:flex-row flex-col items-center sm:h-[768px] h-auto bg-[#bde3ff] justify-center px-[25px] lg:px-0 md:px-[25px]"
+    >
+      <div
+        class="sm:h-[455px] h-auto sm:gap-0 gap-10 flex flex-col sm:w-[636px] w-100 justify-between sm:pt-[50px] pt-[120px]"
+      >
+        <h1
+          class="text-purpleColor font-custom sm:text-[50px] text-[41px] sm:leading-[70px] leading-[44px] sm:w-[517px] md:w-[395px] lg:w-[517px]"
+        >
+          New E-commerce App best for You
+        </h1>
+        <p
+          class="sm:text-[20px] text-[17px] lg:leading-[36px] md:leading-[24px]  leading-[28px] text-purpleColor"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet sed
+          vulputate vitae velit dictum cursus amet. Turpis donec ut velit quis.
+          Cursus commodo, eget urna, sapien amet.
+        </p>
+
+        <div
+          class="btn_sec flex sm:flex-row flex-col sm:items-start items-center gap-[20px]"
+        >
+          <button
+            class="btn_sec w-[180px] h-[60px] bg-bluecolor rounded-[5px] items-center justify-center flex flex-row"
+          >
+            <a><img src="img/btn_icon.svg" class="w-[135px] h-[32px]" /></a>
+          </button>
+
+          <button
+            class="btn_sec w-[180px] h-[60px] bg-bluecolor rounded-[5px] items-center justify-center flex flex-row"
+          >
+            <a><img src="img/btn_icon2.svg" class="w-[135px] h-[32px]" /></a>
+          </button>
+        </div>
+      </div>
+
+      <img
+        src="img/Mockup.png"
+        class="lg:w-[441px] lg:h-[534px] md:h-[435px] md:w-[291px] h-[425px] pb-[20px] sm:pb-0 sm:ml-[32px] pt-[50px]"
+      />
+    </div>
+    <!--Hero Section End-->
+
+    <!--Help Section Start-->
+    <div
+      class="flex w-full flex-col items-center sm:py-[150px] py-[40px] relative  px-[25px] lg:px-0 md:px-[25px]"
+    >
+      <img
+        src="img/help1.svg"
+        class="lg:w-[255px] lg:h-[198px] md:w-[140px] md:h-[158px] absolute right-0 top-0 sm:block hidden"
+      />
+      <img
+        src="img/help2.png "
+        class="lg:w-[255px] lg:h-[198px] absolute left-0 bottom-0 sm:block hidden md:w-[140px] md:h-[158px]"
+      />
+
+      <img
+        src="img/absolute.svg"
+        class="w-[153px] h-[153px] absolute top-0 z-0 right-[400px] mt-[70px] sm:block hidden"
+      />
+      <img
+        src="img/absolute.svg"
+        class="w-[153px] h-[153px] absolute bottom-[80px] z-0 right-[400px] sm:block hidden"
+      />
+
+      <div
+        class="container lg:w-[950px] md:w-[950px] w-[950px] w-full justify-between flex sm:flex-row flex-col width gap-[40px] lg:gap-0 md:px-[25px]"
+      >
+        <div class="flex flex-col relative gap-[40px] sm:gap-0">
+          <h2 class="text-[36px] leading-[46px] text-purpleColor">
+            What we do to help<br />
+            our customers in<br />
+            digital era.
+          </h2>
+          <img
+            src="img/absolute.svg"
+            class="w-[153px] h-[153px] absolute top-[520px] ml-[-18px] sm:d-block hidden"
+          />
+
+          <div
+            class="flex flex-col lg:mt-[170px] lg:ml-[85px] shadow-[0px_0px_50px_-30px_#4a99d3] lg:w-[380px] md:w-[335px] w-[100%] h-[525px] rounded-[10px]"
+          >
+            <img
+              src="img/card1.svg"
+              class="w-[182px] h-[132px] mt-[48px] ml-[52px]"
+            />
+
+            <p
+              class="leading-[30px] text-[20px] text-purple1A pt-[56px] pl-[48px]"
+            >
+              Receive
+            </p>
+            <p
+              class="leading-[26px] text-[16px] text-purple1As opacity-60 pt-[16px] pl-[48px]"
+            >
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit, sed do<br />
+              eiusmod tempor incididunt ut<br />
+              labore et dolore magna aliqua.
+            </p>
+
+            <button class="bg-white border-0 mt-[62px] pl-[48px]">
+              <a class="flex items-center">
+                <p class="text-[15px] text-bluecolor">Learn more</p>
+                <img src="img/arrow.svg" class="w-[16px] h-[16px] ml-[15px]" />
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-[40px] sm:gap-0">
+          <div
+            class="flex flex-col shadow-[0px_0px_50px_-30px_#4a99d3] lg:w-[380px] md:w-[335px] w-[100%] h-[525px] rounded-[10px]"
+          >
+            <img src="img/card2.svg" class="w-[224px] h-[197px] ml-[78px]" />
+
+            <p
+              class="leading-[30px] text-[20px] text-purple1A pt-[56px] pl-[48px]"
+            >
+              Receive
+            </p>
+            <p
+              class="leading-[26px] text-[16px] text-purple1As opacity-60 pt-[16px] pl-[48px]"
+            >
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit, sed do<br />
+              eiusmod tempor incididunt ut<br />
+              labore et dolore magna aliqua.
+            </p>
+
+            <button class="bg-white border-0 mt-[62px] pl-[48px]">
+              <a class="flex items-center">
+                <p class="text-[15px] text-bluecolor">Learn more</p>
+                <img src="img/arrow.svg" class="w-[16px] h-[16px] ml-[15px]" />
+              </a>
+            </button>
+          </div>
+
+          <div
+            class="flex flex-col sm:mt-[113px] shadow-[0px_0px_50px_-30px_#4a99d3] lg:w-[380px] md:w-[335px] w-[100%] h-[525px] rounded-[10px]"
+          >
+            <img
+              src="img/card3.svg"
+              class="w-[156px] h-[131px] mt-[49px] ml-[100px]"
+            />
+
+            <p
+              class="leading-[30px] text-[20px] text-purple1A pt-[56px] pl-[48px]"
+            >
+              Receive
+            </p>
+            <p
+              class="leading-[26px] text-[16px] text-purple1As opacity-60 pt-[16px] pl-[48px]"
+            >
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit, sed do<br />
+              eiusmod tempor incididunt ut<br />
+              labore et dolore magna aliqua.
+            </p>
+
+            <button class="bg-white border-0 mt-[62px] pl-[48px]">
+              <a class="flex items-center">
+                <p class="text-[15px] text-bluecolor">Learn more</p>
+                <img src="img/arrow.svg" class="w-[16px] h-[16px] ml-[15px]" />
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Help Section End-->
+
+    <!--Work Section Start-->
+
+    <div
+      class="flex flex-col w-full bg-[#4A99D31A] sm:h-[476px] items-center justify-center sm:gap-[88px] gap-[40px] py-[40px] sm:py-0"
+    >
+      <h1 class="text-[26px] leading-[27px] text-bluecolor font-bold">
+        How it works
+      </h1>
+
+      <div
+        class="container lg:w-[950px] md:w-[685px] flex sm:flex-row flex-col justify-between gap-[40px]"
+      >
+        <div class="flex flex-col items-center">
+          <img src="img/profile1.svg" class="w-[60px] h-[60px]" />
+          <h2
+            class="text-[18px] leading-[18px] text-purple1A font-medium pt-[30px] pb-[10px]"
+          >
+            Create an account
+          </h2>
+          <h2 class="text-[16px] leading-[26px] text-purple1A text-center">
+            Lorem ipsum dolor sit amet,<br />
+            consecteteu.
+          </h2>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img src="img/profile2.svg" class="w-[60px] h-[60px]" />
+          <h2
+            class="text-[18px] leading-[18px] text-purple1A font-medium pt-[30px] pb-[10px]"
+          >
+            Get authorization
+          </h2>
+          <h2 class="text-[16px] leading-[26px] text-purple1A text-center">
+            Lorem ipsum dolor sit amet,<br />
+            consecteteu.
+          </h2>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img src="img/profile3.svg" class="w-[60px] h-[60px]" />
+          <h2
+            class="text-[18px] leading-[18px] text-purple1A font-medium pt-[30px] pb-[10px]"
+          >
+            Enjoy the app
+          </h2>
+          <h2 class="text-[16px] leading-[26px] text-purple1A text-center">
+            Lorem ipsum dolor sit amet,<br />
+            consecteteu.
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!--Work Section End-->
+
+    <!--Client Section Start-->
+
+    <div
+      class="flex flex-col items-center gap-[10px] relative px-[25px] md-[25px] lg:px-0"
+    >
+      <h1 class="text-[26px] font-bold text-purple1A sm:pt-[150px] pt-[40px]">
+        What our client say
+      </h1>
+
+      <img
+        src="img/absolute.svg"
+        class="absolute right-0 top-[50%] sm:d-block hidden"
+      />
+
+      <div class="flex w-full lg:flex-row md:flex-col flex-col sm:gap-[100px]">
+        <img
+          src="img/client img.svg"
+          class="w-[677px] sm:h-[519px] h-[325px] md:pt-[30px] lg:pt-[0px]"
+        />
+
+        <div class="flex flex-col lg:pt-[197px]">
+          <img src="img/comma.svg" class="w-[50px] h-[50px]" />
+
+          <p
+            class="py-[40px] text-[16px] leading-[24px] text-purple1A opacity-60 sm:w-[418px] w-[327px]"
+          >
+            Amet in elementum nulla scelerisque dui, egestas at. Elit
+            consectetur turpis elementum amet vitae et etiam nec. Varius
+            volutpat hac adipiscing tincidunt pretium.
+          </p>
+
+          <h2 class="text-[18px] text-purple1A font-medium">Angel Paulina</h2>
+
+          <div class="flex flex-row justify-end pt-[37px]">
+            <div
+              class="flex flex-row items-center justify-center bg-[#4A99D3] rounded-l-[5px] rounded-r-none w-[80px] h-[80px]"
+            >
+              <img src="img/arrow right.svg" class="w-[16px] h-[28px]" />
+            </div>
+
+            <div
+              class="flex flex-row items-center justify-center bg-white rounded-t-[5px] rounded-b-none w-[80px] h-[80px] shadow-md"
+            >
+              <img src="img/arrow left.svg" class="w-[16px] h-[28px]" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Client Section End-->
+
+    <!--App Section Start-->
+    <div
+      class="flex flex-row lg:pl-[167px] lg:pt-[118px] px-[25px] lg:pb-[104px] relative py-[40px] "
+    >
+      <img
+        src="img/help01.png"
+        class="w-[255px] h-[198px] bottom-0 left-0 z-0 absolute sm:d-block hidden"
+      />
+      <img
+        src="img/help02.png"
+        class="w-[255px] h-[198px] bottom-0 right-0 z-0 absolute sm:d-block hidden"
+      />
+
+      <div class="flex sm:flex-row items-center flex-col w-full">
+        <img src="img/Mockup2.svg" class="lg:w-[516px] lg:h-[458px] md:w-[480px] h-[350px]" />
+
+        <div class="flex flex-col sm:w-[444px] items-center w-full">
+          <h1 class="sm:text-[25px] text-[23px] text-purple1A font-bold">
+            Download app to enjoy more!
+          </h1>
+          <p
+            class="text-[16px] leading-[24px] text-purple1A opacity-60 text-center pt-[15px] lg:w-[444px] md:w-[415px]"
+          >
+            Amet in elementum nulla scelerisque dui, egestas at. Elit
+            consectetur turpis elementum amet vitae et etiamnec. Varius volutpat
+            hac adipiscing tincidunt pretium.
+          </p>
+
+          <div
+            class="btn_sec flex flex-col gap-[20px] justify-center sm:pt-[59px] pt-[30px]"
+          >
+            <button
+              class="btn_sec w-[165px] h-[52px] bg-black rounded-[5px] items-center justify-center flex flex-row"
+            >
+              <a><img src="img/btn_icon.svg" class="w-[135px] h-[32px]" /></a>
+            </button>
+
+            <button
+              class="btn_sec w-[165px] h-[52px] bg-black rounded-[5px] items-center justify-center flex flex-row"
+            >
+              <a><img src="img/btn_icon2.svg" class="w-[135px] h-[32px]" /></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--App Section Start-->
+
+    <!--footer Section Start-->
+    <div
+      class="flex flex-col bg-bluecolor items-center sm:pt-[74px] py-[40px] pb-[7px]"
+    >
+      <div
+        class="flex sm:flex-row flex-col items-center sm:items-start lg:w-[1192px] md:w-[850px] justify-between gap-6 md:px-[25px]"
+      >
+        <img src="img/logo2.svg" class="w-[109px] h-[35px]" />
+
+        <div class="flex flex-col gap-[34px] items-center lg:items-start">
+          <h1
+            class="text-white text-[18px] relative after:block after:h-[2px] after:w-full after:bg-white after:mt-{1px} w-[99px] text-center sm:text-start"
+          >
+            Quick Links
+          </h1>
+
+          <ul class="flex flex-col">
+            <li class="text-white text-[16px] text-center sm:text-start">
+              Sign Up
+            </li>
+            <li
+              class="text-white text-[16px] pt-[18px] text-center sm:text-start"
+            >
+              About Us
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-[34px] items-center lg:items-start">
+          <h1
+            class="text-white text-[18px] inline-block border-b-2 border-white pb-1 w-[61px]"
+          >
+            Others
+          </h1>
+
+          <ul class="flex flex-col">
+            <li class="text-white text-[16px] text-center lg:text-start">
+              User FAQs
+            </li>
+            <li
+              class="text-white text-[16px] pt-[18px] text-center lg:text-start"
+            >
+              Contact Us
+            </li>
+            <li
+              class="text-white text-[16px] pt-[18px] text-center lg:text-start"
+            >
+              Legal
+            </li>
+            <li
+              class="text-white text-[16px] pt-[18px] text-center lg:text-start"
+            >
+              Privacy Policy
+            </li>
+            <li
+              class="text-white text-[16px] pt-[18px] text-center lg:text-start"
+            >
+              Terms and Conditions
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-[34px] items-center lg:items-start">
+          <h1
+            class="text-white text-[18px] inline-block border-b-2 border-white pb-1 w-[75px] text-center sm:text-start"
+          >
+            Products
+          </h1>
+
+          <ul class="flex flex-col">
+            <li class="text-white text-[16px] text-center lg:text-start">
+              Send
+            </li>
+            <li
+              class="text-white text-[16px] pt-[18px] text-center lg:text-start"
+            >
+              Receive
+            </li>
+            <li
+              class="text-white text-[16px] pt-[18px] text-center lg:text-start"
+            >
+              Buy
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-[20px]">
+          <h1
+            class="text-[18px] leading-[26px] text-white text-center sm:text-start md:text-[15px]"
+          >
+            Subscribe to our newsletter and be the<br/>
+            first to know about our updates
+          </h1>
+
+          <div
+            class="flex lg:flex-row flex-col items-center sm:items-start gap-[10px]"
+          >
+            <input
+              type="email"
+              value="Email addres"
+              class="w-[268px] h-[55px] bg-white rounded border-0 pl-[10px] text-[14px] placeholder-opacity-50"
+            />
+
+            <button
+              class="flex w-[116px] h-[55px] bg-white rounded justify-center items-center"
+            >
+              <a href="/"
+                ><p class="text-[16px] text-bluecolor font-bold">
+                  Subscribe
+                </p></a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <hr class="h-[1px] w-full bg-white mt-[28px]" />
+
+      <div
+        class="sm:w-[80%] w-full pt-[20px] flex flex-row justify-between sm:px-0 px-[20px]"
+      >
+        <p class="text-[13px] text-white">
+          Copyright © 2020. All rights reserved.
+        </p>
+        <div class="flex flex-row gap-[10px]">
+          <img src="img/Youtube.svg" class="w-[22px] h-[16px]" />
+          <img src="img/Instagram.svg" class="w-[16px] h-[16px]" />
+          <img src="img/Facebook.svg" class="w-[7px] h-[16px]" />
+          <img src="img/Twitter.svg" class="w-[19px] h-[16px]" />
+        </div>
+      </div>
+    </div>
+    <!--footer Section End-->
+  </body>
+</html>
